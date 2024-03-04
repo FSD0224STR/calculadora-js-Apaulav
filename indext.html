@@ -1,32 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.2.0/math.min.js" defer></script>
+    <script src="scripts.js" defer></script>
 </head>
 <body>
     <h1>Calculadora</h1>
     <section class="calc">
-        <input class="screenoperators" type="text">
-        <button class="nine">9</button>
-        <button class="eight">8</button>
-        <button class="seven">7</button>
-        <button class="six">6</button>
-        <button class="five">5</button>
-        <button class="four">4</button>
-        <button class="three">3</button>
-        <button class="two">2</button>
-        <button class="one">1</button>
-        <button class="zero">0</button>
-        <button class="clear">c</button>
-        <button class="equals">=</button>
-        <button class="sum">+</button>
-        <button class="sub">-</button>
-        <button class="multi">*</button>
-        <button class="div">/</button>
-    </section>
-    
+        <input id="display" autofocus type="text" disabled></input>
+        <button class="button" id="nine">9</button>
+        <button class="button" id="eight">8</button>
+        <button class="button" id="seven">7</button>
+        <button class="button" id="six">6</button>
+        <button class="button" id="five">5</button>
+        <button class="button" id="four">4</button>
+        <button class="button" id="three">3</button>
+        <button class="button" id="two">2</button>
+        <button class="button" id="one">1</button>
+        <button class="button" id="zero">0</button>
+        <button class="button" id="clear">c</button>
+        <button class="button" id="equals">=</button>
+        <button class="button" id="sum">+</button>
+        <button class="button" id="sub">-</button>
+        <button class="button" id="multi">*</button>
+        <button class="button" id="div">/</button>
+    </section>  
 </body>
 </html>

@@ -1,5 +1,5 @@
 .calc {
-    width: 20%;
+    width: 10%;
     display: grid;
     grid-template-areas: "pantalla pantalla pantalla pantalla"
     "seven eight nine div"
@@ -11,54 +11,58 @@
     
 }
 
-.screenoperators {
+#display {
+    margin-bottom: 10px;
     grid-area: pantalla;
 }
-.zero {
+.button {
+    margin: 5px;
+}
+#zero {
     grid-area: zer;
 }
-.one {
+#one {
     grid-area: one;
 }
-.two {
+#two {
     grid-area: two;
 }
-.three {
+#three {
     grid-area: three;
 }
-.four {
+#four {
     grid-area: four;
 }
-.five {
+#five {
     grid-area: five;
 }
-.six {
+#six {
     grid-area: six;
 }
-.seven {
+#seven {
     grid-area: seven;
 }
-.eight {
+#eight {
     grid-area: eight;
 }
-.nine {
+#nine {
     grid-area: nine;
 }
-.clear {
+#clear {
     grid-area: clear;
 }
-.equals {
+#equals {
     grid-area: equals;
 }
-.sum {
+#sum {
     grid-area: sum;
 }
-.sub {
+#sub {
     grid-area: resta;
 }
-.mul {
+#mul {
     grid-area: mul;
 }
-.div {
+#div {
     grid-area: div;
 }
